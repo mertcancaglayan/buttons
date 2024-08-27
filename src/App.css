@@ -1,7 +1,14 @@
 .App {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 150px;
-  text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 150px;
+	text-align: center;
+}
+
+.buttonContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 20px;
 }

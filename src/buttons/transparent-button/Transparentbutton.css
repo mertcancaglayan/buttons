@@ -1,0 +1,37 @@
+.transparent-buttons {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+}
+
+.transparent-buttons button {
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 5px 10px;
+	height: 50px;
+	width: 145px;
+	border: 1px solid black;
+	transition: 0.3s ease-in-out;
+	font-size: 20px;
+}
+
+.transparent-buttons button#button1 {
+	background: none;
+}
+
+.transparent-buttons button#button1:hover {
+	background-color: black;
+	color: aliceblue;
+}
+
+.transparent-buttons button#button2 {
+	background-color: black;
+	color: aliceblue;
+}
+
+.transparent-buttons button#button2:hover {
+	background: none;
+	color: black;
+}
