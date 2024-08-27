@@ -4,7 +4,7 @@ import "./Downloadbutton.css";
 function Downloadbutton() {
 	return (
 		<div className="buttonContainer">
-			<button>
+			<button className="download-button">
 				<div className="button-text">Download</div>
 				<div className="download-icon">
 					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
