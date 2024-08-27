@@ -5,7 +5,7 @@
 	margin: 20px;
 }
 
-button {
+.download-button {
 	position: relative;
 	background-color: white;
 	background-image: linear-gradient(to right, white 50%, rgb(255, 168, 5) 50%);
@@ -26,7 +26,7 @@ button {
 	overflow: hidden;
 }
 
-button:hover {
+.download-button:hover {
 	background-position: right bottom;
 	color: white;
 }
