@@ -1,0 +1,42 @@
+.buttonContainer {
+	gap: 20px;
+}
+
+.loading-button {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	height: 50px;
+	width: 130px;
+	border: none;
+	cursor: pointer;
+}
+
+.loading-button:first-child {
+	background-color: red;
+	color: white;
+}
+
+.loading-button:last-child {
+	background-color: rgb(6, 175, 105);
+	color: white;
+}
+
+.loading-button svg {
+	fill: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 20px;
+	height: 20px;
+	animation: rotate 2.5s linear infinite;
+}
+
+@keyframes rotate {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
